@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    background: rgb(58,17,207);
+    background: linear-gradient(270deg, rgba(58,17,207,1) 0%, rgba(52,199,255,1) 100%, rgba(255,218,0,1) 100%);
+    font-size: 25px;
+}
+
+body{
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 17,
+    "SHLN" 50;
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 5px solid black;
+    margin: 2rem;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+
+.flash{
+    background-color: white;
+}
+
+.userflash{
+    background-color: lightgreen;
+}
