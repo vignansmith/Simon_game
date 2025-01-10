@@ -2,24 +2,41 @@ body{
     text-align: center;
     background: rgb(58,17,207);
     background: linear-gradient(270deg, rgba(58,17,207,1) 0%, rgba(52,199,255,1) 100%, rgba(255,218,0,1) 100%);
-    font-size: 25px;
+    font-size: 20px;
+    
 }
 
 body{
   font-family: "Honk", system-ui;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 350;
   font-style: normal;
   font-variation-settings:
     "MORF" 17,
     "SHLN" 50;
 }
+
+.restart{
+    position: relative;
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 5px;
+}
+
+.background-audio{
+    position: absolute;
+    justify-content: center;
+    opacity: 0;
+}
 .btn{
     height: 200px;
     width: 200px;
     border-radius: 20%;
-    border: 5px solid black;
-    margin: 2rem;
+    border: 3px solid black;
+    margin: 1.5rem;
+    box-shadow: 5px 5px 5px;
 }
 .btn-container{
     display: flex;
@@ -44,4 +61,8 @@ body{
 
 .userflash{
     background-color: lightgreen;
+    box-shadow:-2px -2px ;
+}
+.background{
+    background-color: brown;
 }
